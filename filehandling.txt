@@ -1,0 +1,33 @@
+1
+Perform the following operations on file using menu-driven application,
+• Opening a existing file
+• Creating a new file
+• Renaming a file
+• Deleting a file
+• Creating a directory
+• Finding the absolute path of a file
+• Get the file names of a directory
+
+2
+Create a file named MySource.txt. Write your own profile into the file, MySource.txt. Copy this file into another location and delete the file, MySource.txt.
+
+3. 
+Create a function in Java to count the number of embedded white spaces and punctuations present in a text file named "Sample.txt".
+
+4. 
+Create a Java program to find which word has the maximum occurrence and
+replace that word by a special symbol, say *.
+
+5. 
+Create a Java program to do the following operations.
+
+a. Write the following content into a file named first.txt. “A stream is a communication channel that a program has with the outside world. It is used to transfer data items in succession.”
+
+b. Create another file named second.txt which contains the following content. “An Input/Output (I/O) Stream represents an input source or an output destination. A stream can represent many different kinds of sources and destinations, including disk files, devices, other programs, and memory arrays.”
+
+c. Now, merge the content of above two files and put the same into final.txt.
+
+
+
+6
+Create a java program to extract every word which does not start with the first letter of your name from a file, say findMyStuff.txt. For example, if your name is Sam, extract all the words which start with the letter ‘s’ or ‘S’.Display the total count of words that start with the first letter of your name.

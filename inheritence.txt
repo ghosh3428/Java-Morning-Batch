@@ -1,0 +1,82 @@
+1	
+Develop a java application using Inheritance concept to automate the salary calculation of employee in an organization as per the salary band given below. Create a super class called Employee and derive sub classes as per the given table. Apply method overriding (Run time Polymorphism) to implement the following services via menu driven interface.
+a)	Calculate Gross Salary
+b)	Calculate Net Salary
+c)	Calculate Tax
+d)	Print the Pay Details
+
+Salary Band	Manager	Engineer
+Basic Salary	30000	20000
+DA Pay		95%	80%
+HRA		20%	15%
+TAX		25%	15%
+EPF		3000	2000
+
+2	
+Develop a java application using Inheritance as per the following. Create a called Shape. Use this class to store two double type values that could be used to compute the area of figures. Derive two specific classes called Triangle and Rectangle from the super class Shape. In super class, add necessary setter/getter to initialize Shape class data members and another member function find_area() to compute and display the area of figures. Override the display_area() from sub classes and redefine the function to suit their requirements. Complete above scenario using Inheritance, Run Time Polymorphism with Menu driven options.
+
+
+3	
+Develop a java application using Inheritance as per the following. Create a super class called CashTree which demonstrate any ATM Machine. Have attributes like name, codeno, location, etc. Add functionalities like ViewBalance, WithDraw and Deposit in super class. Derive two sub classes SBI_Bank, and HDFC_Bank with additional properties such as customer_name, balance and redefine those super class functionalities according to the nature of specified bank (differenciate via service_charges, interest rate, and maximum withdraw limit etc). Complete the above scenario using Inheritance, Run Time Polymorphism with Menu driven options.
+
+
+4	
+Develop a java application using Inheritance as per the following. Create a super class called Train which has attributes like name, trainno, source, destination, no.of tickets, cost. Add methods in such as Check_SeatAvailablity, BookTicket. Derive two sub classes such as ChennaiExpress and CoimbatoreExpress. Override all the super class functions in the derived classes. Implement the services such as check seat availability and booking ticket using run time polymorpshim with menu driven options. Initialize few train details using array of objects to make it those functions work for any source and destination (atleast five). Finally print the booked ticket details.
+
+
+5	
+Consider the fuel rates in state wise as per the given table below. Create a Java application to calculate the fuel cost consumed by the customer. Create a super class called FUEL with few attributes such as fuel_name, state, cost. Add a function to calculate the cost for the fuel consumption required by customer. Derive sub classes as per the table given below. Provide an interface which prompts the user to give name, no. of litters required, etc. Finally print the name of the customer, state, no. of litter consumed and the total cost of the fuel. Complete the above scenario using Inheritance, Run Time Polymorphism with Menu driven options.
+			TAMILNADU	KERALA		KARNATAKA
+Petrol (per liter)		Rs.97.46		Rs. 98.35		Rs.99.61
+Diesel (per liter)		Rs. 96.08		Rs.97.37		Rs.98.61
+Kerosene (per liter)		Rs. 25.7		Rs.26.4		Rs.27.6
+Auto LPG Gas (per kg)	Rs.70.33		Rs. 71.27		Rs. 72.08
+
+6	
+The following INCOME TAX RATES are applicable for the Financial Year ending March 31, 2021. Create a Java application to provide a tax calculation service as per the tariff given below. Create a super class IncomeTax and have function called findTax. Derive three classes as per the category given table. Provide an menu driven interface for clients to enter the name, age, annual income and perform the tax calculation as per the given tariff. Complete the above scenario using Inheritance, Run Time Polymorphism with Menu driven options.
+
+Income Range			Men	Women	SeniorCitizen
+(above age 60)
+Upto Rs. 2,50,000			Nil	Nil	Nil
+Rs. 2,50,001 to Rs. 3,00,000		10%	Nil	Nil
+Rs. 3,00,001 to Rs.5,00,000		10%	10%	5%
+Rs. 5,00,001 to Rs.10,00,000		20%	20%	10%
+Above Rs. 10,00,000			30%	30%	20%
+
+
+7	
+Write a menu driven application to maintain the student information using Java to demonstrate the concept of inheritance. Assume that you are considering PG and UG students, where the specialization details are maintained only for the PG students. Your application must contain the following functionalities along with the use of method overriding, and super keyword.
+a.	For each student your application must have the details such as name, registerNo, department, specialization, cgpa, hostelName, mentorName,noOfArrears.
+b.	Get the student details from user(admin)
+c.	Display the student list with all details in a proper and neat format.
+d.	In the menu give option to display the PG and UG student list separately.
+
+
+8	
+Write a menu driven application to Library Management using Java to demonstrate the concept of Inheritance. Your application must contain the following functionalities along with the use of method overriding, and super keyword.
+a.	The following details must be there for each Book
+i.	bookTitle
+ii.	bookAuthor
+iii.	bookNoOfCopies
+iv.	bookAvailability
+v.	bookEdition
+vi.	bookPublisher
+b.	Get the Book details from librarian
+c.	In the menu give options to borrow, return and Search options
+
+
+9	
+Write a menu driven application to maintain the department details of a School using Java to demonstrate the concept of Inheritance. Your application must contain the following functionalities along with the use of method overriding, and super keyword. Consider the example of school of CST having three departments CSE, AI&SD and CE.
+a.	For each department maintain the following details.
+i.	deptName
+ii.	hodName
+iii.	noOfFaculty
+iv.	noOfStudents
+v.	noOfPrograms
+b.	Get the department details from user(admin)
+c.	Display the Department list with all details in a proper and neat format.
+d.	In the menu give an option to display department wise details.
+
+
+10	
+Develop a java application using Inheritance as per the following. Create a class Worker and derive two classes DailyWorker and SalariedWorker from it. Every worker has name, salary rate. Provide a method ComPay(int hours) to compute the week pay of every worker. A DailyWorker is paid on the basis of number of days he/she works. The SalariedWorker gets paid the wage for 40 hours a week no matter what actual hours is. Implement this scenario to calculate the pay of workers. You are expected to use the concept of Inheritance with proper run time polymorphism

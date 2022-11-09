@@ -1,0 +1,59 @@
+1. 
+Develop an application in Java for automating the Banking Operations using interfaces.
+
+Create an interface called “Transaction” which contains the functions such as deposit, withdraw, and viewBalance. 
+
+Create another interface called “Displayable” which contains the Display () function to display the account details. 
+
+Create an abstract class called “Account” with bank account details such as acc_name, acc_no, and balance. Add necessary constructors. 
+
+Create a “Bank” class which implements the “Transaction”, “Displayable” interfaces and inherits “Account” class. 
+
+Perform menu driven operations like Deposit, Withdraw and Balance Enquiry, View 
+Account Details from a Main class. Write logics in the corresponding methods.
+
+
+2. 
+Create two interfaces such as MathsOperable and TrigonometricOperable which contains the functions to perform the basic arithmetic operations (add, sub, mul, div, mod) andtrigonometric operations (sine, cosine, tan) respectively. 
+
+Create an abstract class called “Calculator” with details such as no1, no2 and result. Add 
+necessary constructors. 
+
+Implement these interfaces and inherit the class in “Operation” class to perform the specific operations.
+
+Demonstrate the operations in a menu driven fashion from a Main class. Write logics in 
+the corresponding methods.
+
+
+3. 
+Create an interface “Academic” with methods: calAcademicCredit(), registerSub(), assignFaculty().
+
+Create another interface “NonAcademic” with method:calNonAcademicCredit(), registerClub(). 
+
+Create an abstract class called “Course” with details such as name, reg_no, subjects, 
+faculty, non_acad_club etc. Add necessary constructors. 
+
+Implement these interfaces and inherit the class in “Student” class to perform the specific operations.
+
+Demonstrate the operations in a menu driven fashion from a Main class. Write logics in 
+the corresponding methods.
+
+4
+Write a program to implement the Library Information System using packages with the following instructions 
+a) Create a Books class in pkg1.
+b) Create an Admin class in pkg2.
+c) Create a User class in pkg3.
+d) Import all packages in Test class and do the following operations in a menu-driven 
+fashion. Add books, Search books, and List books.
+
+
+5
+Develop an application in Java for automating the Banking Operations using packages. Create an Account class in pkg1, SavingsAccount class, and CurrentAccount class both of which inherits the Account class in pkg2. Perform menu-driven operations like Deposit, Withdraw, and Balance Enquiry from a Test class by importing these two packages.
+
+
+6
+Develop an application in Java for automating the Hostel Management 
+System using packages. Create Hostel class in pkg1, Student class, and 
+SRA class in pkg2. Perform menu driven operations like SRA Allocation, 
+List of SRA’s in a Hostel, List of Students under a particular SRA, and 
+View Student Details from a Test class by importing these two packages
